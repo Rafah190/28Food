@@ -1,0 +1,27 @@
+/*TRATANDO IMAGENS NO CSS */
+
+.lista-receitas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.receitabox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    width: 300px;
+    background-color: #1e7387;
+    border-radius: 40px;
+}
+
+.lista-imagem{
+    border-radius: 30px;
+}
+
+.overlay{
+    text-align: center;
+}
