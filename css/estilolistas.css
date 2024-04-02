@@ -18,6 +18,12 @@
     border-radius: 40px;
 }
 
+.receitabox :hover{
+    opacity: 0.7;
+}
+.receitabox a:visited{
+    color: #1e7387;
+}
 .lista-imagem{
     border-radius: 30px;
 }
