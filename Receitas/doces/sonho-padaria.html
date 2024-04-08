@@ -18,89 +18,136 @@
     <div class="container">
         <div class="logo"> <a href="index.html"><img src="../../img/28foodlogomarca2.svg" width="1000px" height="100px"></a></div>
         <div class="menu">
-            <a href="doces.html">DOCES</a>
-            <a href="saladas.html">SALGADOS</a>
-            <a href="saladas.html">SALADAS</a>
+
+            <a href="../../doces.html">DOCES</a>
+            <a href="../../salgados.html">SALGADOS</a>
+            <a href="../../saladas.html">SALADAS</a>
 
         </div>
-
-
         <div class="social">
             <a href="facebook.com" class="fb"><img src="../../icons/icons8-facebook-24.png"></a>
             <a href="instagram.com" class="ins"><img src="../../icons/icons8-instagram-24.png"></a>
         </div>
     </div>
  
-    <div class="pesquisa">
-        <input type="text" placeholder="Pesquisar">
-        <input type="submit" value="">
+        <div class="pesquisa">
+            <input type="text" placeholder="Pesquisar">
+            <input type="submit" value="">
+        </div>
+
+   <!--CONTEÚDO DA RECEITA-->
+   <div class="container_receitas">
+   
+     
+ 
+    <div class="receita">
+        <!--IMAGEM DA RECEITA-->
+        <div class="imagem_receitas">
+        <img src="../../img/doce-sonho.jpeg" width="600px" height="400px">
     </div>
 
-    <!--CONTEUDO DA RECEITA-->
-    <!--NOME DA RECEITA-->
-    <div class="container_receitas">
-        <div class="receita">
-             <h1>Sonho de padaria</h1>
+        <!--BLOCO DA RECEITA-->
+        <!--INGREDIENTES-->
 
-                <!--INGREDIENTES-->
-                <h3>--INGREDIENTES--</h3>
+        <h1>SONHO</h1>
 
-                <h4>Massa</h4>
-                    <input type="checkbox" id="checkbox">500 g de farinha de trigo
-                    <br>
-                    <input type="checkbox" id="checkbox">2 colheres de chá de açúcar
-                    <br>
-                    <input type="checkbox" id="checkbox">2 gemas
-                    <br>
-                    <input type="checkbox" id="checkbox">2 pacotinhos de fermento para pão (30 g)
-                    <br>
-                    <input type="checkbox" id="checkbox">1 pitada de sal
-                    <br>
-                    <input type="checkbox" id="checkbox">Óleo para fritar
-                    <br>
-                    <input type="checkbox" id="checkbox">1 xícara e 1/2 de água
-                    <br>
-                    <input type="checkbox" id="checkbox">3 colheres de sopa de óleo
+        <h4>--INGREDIENTES--</h4>
 
-                <h4>Recheio</h4>
-                <input type="checkbox" id="checkbox">1/2 copo de açúcar
-                <br>
-                <input type="checkbox" id="checkbox">1/4 copo de maizena
-                <br>
-                <input type="checkbox" id="checkbox">2 gemas
-                <br>
-                <input type="checkbox" id="checkbox">1/3 copo de suco de limão
-                <br>
-                <input type="checkbox" id="checkbox">2 colheres de sopa margarina
-                <br>
-                <input type="checkbox" id="checkbox">3/4 copo de água fria
-                <br>        
-                <input type="checkbox" id="checkbox">1/4 colher de chá de sal
-                <br>
+        <input type="checkbox" id="checkbox"><text>1 KG DE FARINHA DE TRIGO</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>10 G DE FERMENTO PARA PÃO</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1 OVO</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1 XÍCARA DE AÇÚCAR</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1 PITADA DE SAL</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1/2 XÍCARA DE ÓLEO</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1/2 DE LEITE MORNO</text>
+        <br>
+        <!--RECHEIO-->
+        <h3>--RECHEIO--</h3>
+        <input type="checkbox" id="checkbox"><text>1/2 DE LEITE</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1 GEMA</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>2 COLHERES DE SOPA DE MAIZENA</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>1 LATA DE LEITE CONDENSADO</text>
+        <br>
+        <input type="checkbox" id="checkbox"><text>AÇÚCAR A GOSTO</text>
 
-                <div class="preparo">
-                    <h4>Modo de Preparo</h4>
-                    <h5>1. Massa</h5>
-                    <text>Dissolver o fermento na água e deixar descansar por 15 minutos.</text>
-                    <br>
-                    <h5>2</h5>
-                    <text>Em uma vasilha grande misturar todos os ingredientes e amassar até obter uma massa bem macia.</text>
-                    <h5>3</h5>
-                    <text>Cobrir e deixar crescer por 2 horas em lugar resguardado </text>
-                    
-            </div>
-            </div>
-            
+            <!--FIM ITENS DA RECEITA-->
 
-        <div class="receita_imagem"></div>
+        <br>
+
     </div>
-    <!--IMPORTANDO JAVA SCRIPT-->
-    <Script src="scripits/script.js"></Script>
+    <!-- INÍCIO MODO DE PREPARO-->
+    <!--AQUI CADA BLOCO É UMA ETAPA DO PREPARO-->
+
+    <h4> --MODO DE PREPARO--</h4>
+    <!--BLOCO 1-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px" >
+        <input type="checkbox" id="checkbox">
+        <text>
+            DISSOLVA O FERMENTO COM O LEITE MORNO, DEPOIS COLOQUE O AÇÚCAR E OS DEMAIS INGREDIENTES.
+        </text>
+        </div>
+    <!--BLOCO 2-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px">
+        <input type="checkbox" id="checkbox">
+        <text>
+            SOVE A MASSA ATÉ QUE FIQUE SEM GRUDAR NAS MÃOS.
+        </text>
+    </div>
+    <!--BLOCO 3-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px">
+        <input type="checkbox" id="checkbox">
+        <text>
+            FAÇA BOLINHAS DO TAMANHO QUE PREFERIR E DEIXE A MASSA CRESCER POR MAIS OU MENOS 1 HORA.
+        </text>
+    </div>
+    <!--BLOCO 4-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px">
+        <input type="checkbox" id="checkbox">
+        <text>
+            APÓS ISSO, FRITE EM ÓLEO QUENTE E RECHEIE.
+        </text>
+    </div>
+    <!--BLOCO 5-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px">
+        <input type="checkbox" id="checkbox">
+        <text>
+            PARA PREPARAR O RECHEIO É SÓ MISTURAR TODOS INGREDIENTES E LEVA AO FOGO, SEMPRE MEXENDO, ATÉ ENGROSSAR
+        </text>
+    </div>
+    <!--BLOCO 6-->
+    <div class="preparo">
+        <img src="../../icons/fork9.png" width="20px" height="20px">
+        <input type="checkbox" id="checkbox">
+        <text>
+            SE PREFERIR VOCÊ PODE RECHEAR COM BRIGADEIRO QUE FICA MUITO BOM!.
+        </text>
+    </div>
+</div>
+
+</div>
+
+
+
+
 </body>
-
 <footer class="rodape">
-    <div class="rodape-container"> </div>
+<div class="rodape-container">
+
+</div>
 
 </footer>
-
 </html>
