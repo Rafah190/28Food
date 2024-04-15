@@ -214,16 +214,39 @@
 
     }
 
-
-    .rodape-container {
-        height: 300px;
-        width: auto;
+    .rodape{
+        font-size: 22px;
         background-color: #1e7387;
+        display: flex;
+        justify-content: left;
+        color: beige;
     }
-
-    .receita-imagem {
-        border-radius: 50%;
+    .map h1, p{
+        color: beige;
+        display: flex;
+        align-items: center;
     }
+     
+    .rodape-container{
+        float: left;
+        font-size: medium;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+    }
+     
+    .receitas-imagem{
+        border-radius: 100%;
+    }
+     
+    .rodape text{
+        margin-top: 250px;
+    }
+     
+    .rodape a{
+        align-items: center;
+        font-size: 22px;
+        text-decoration: none;}
 
 
     @import url('https://fonts.cdnfonts.com/css/curely')

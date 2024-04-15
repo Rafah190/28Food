@@ -7,7 +7,6 @@
     padding: 20px;
 }
 .receita{
-    padding: 30px;
     background-color: whitesmoke;
     color: #1e7387;
     font-style: italic;
@@ -36,10 +35,23 @@ input[type="checkbox"]{
 }
  
 .imagem_receitas{
+    padding: 40px;
     float: right;
-    display: flex;
-    justify-content: space-between;
-    border: solid 2x black;
-    width: 400px;
-    height: 400px;
+    border-radius: 20px;
+}
+
+.imagem_receitas IMG{
+    border-radius: 20px;
+}
+
+h1{
+    color: #175866;
+    font-family: Curely, sans-serif;
+}
+
+.ingredientes{
+    overflow: hidden;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 20px;
 }
