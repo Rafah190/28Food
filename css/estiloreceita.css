@@ -1,4 +1,4 @@
-.preparo{
+.preparo {
     background-color: whitesmoke;
     border-radius: 20px;
     color: #1e7387;
@@ -6,50 +6,56 @@
     margin-bottom: 20px;
     padding: 20px;
 }
-.receita{
+
+.receita {
     background-color: whitesmoke;
     color: #1e7387;
     font-style: italic;
 }
-.preparo:hover{
+
+.preparo:hover {
     opacity: 0.7;
 }
-.preparo img{
+
+.preparo img {
     padding: 5px 5px 0px 5px;
 }
-h3, h4{
-color: #1e7387;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+h3,
+h4 {
+    color: #1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- 
-text{
+
+text {
     color: #175866;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
 }
-input[type="checkbox"]{
+
+input[type="checkbox"] {
     width: 20px;
     height: 20px;
-   accent-color: #175866;
+    accent-color: #175866;
 }
- 
-.imagem_receitas{
+
+.imagem_receitas {
     padding: 40px;
     float: right;
     border-radius: 20px;
 }
 
-.imagem_receitas IMG{
+.imagem_receitas IMG {
     border-radius: 20px;
 }
 
-h1{
+h1 {
     color: #175866;
     font-family: Curely, sans-serif;
 }
 
-.ingredientes{
+.ingredientes {
     overflow: hidden;
     background-color: whitesmoke;
     border: 1px black solid;

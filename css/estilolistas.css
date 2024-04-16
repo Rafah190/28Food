@@ -1,6 +1,6 @@
 /*TRATANDO IMAGENS NO CSS */
 
-.lista-receitas{
+.lista-receitas {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     margin-bottom: 80px;
 }
 
-.receitabox{
+.receitabox {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     font-size: 18px;
@@ -18,16 +18,18 @@
     border-radius: 40px;
 }
 
-.receitabox :hover{
+.receitabox :hover {
     opacity: 0.7;
 }
-.receitabox a:visited{
+
+.receitabox a:visited {
     color: #1e7387;
 }
-.lista-imagem{
+
+.lista-imagem {
     border-radius: 30px;
 }
 
-.overlay{
+.overlay {
     text-align: center;
 }
