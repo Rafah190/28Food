@@ -116,7 +116,7 @@
 
     h1 {
         color: #ffffff;
-
+        font-family: Curely, sans-serif;
     }
 
     .mySlides {
@@ -284,6 +284,6 @@
 
     }
 
-   
+
 
     @import url('https://fonts.cdnfonts.com/css/curely')
